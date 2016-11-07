@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+    <title>Space Ripples Reveal Big Bangs Smoking Gun</title>
+    <link rel="stylesheet" href="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\styles.css">
+</header>
+
+<body>
+    <!-- Nav Menu -->
+
+    <div class="header">
+        <div class="header-content cf">
+            <div class="header-button left">
+                <div class="header-button-content">
+                    <i class="fa fa-bars">
+                    </i>
+                    <span class="button-text">SECTIONS</span>
+                </div>
+            </div>
+            <div class="header-button left borderless">
+                <div class="header-button-content"> <img class="header-element-icon" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\icon.png" alt="nyt icon">
+                    <span class="button-text">HOME</span>
+                </div>
+            </div>
+            <div class="header-button left borderless">
+                <div class="header-button-content">
+                    <i class="fa fa-search">
+                    </i>
+                    <span class="button-text">SEARCH</span>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\logo.png">
+            </div>
+
+            <div class="settings right">
+                <i class="fa fa-gear">
+                </i>
+            </div>
+
+            <div class="header-button right subscribe">
+                <div class="header-button-content">
+                    <span id="subscribe" class="button-text">Subscribe Now</span>
+                </div>
+            </div>
+
+            <div class="header-button right log">
+                <div class="header-button-content">
+                    <span id="log" class="button-text">LOG IN</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Ribbon -->
+
+    <div class="ribbon">
+
+        <div class="ribbon-container">
+
+            <div class="story left cf">
+                <img class="story-image left" alt="picture of a black hole" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\25tb-telescope1-thumbStandard.jpg">
+                <h2 class="story-heading right">A Wider-Eyed Watchdog of the Clutter Surrounding Earth</h2>
+              
+            </div>
+
+            <div class="story left cf">
+                <img class="story-image left" alt="picture of a black hole" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\mars.jpg">
+                <h2 class="story-heading right">Dark spot in Mars Photo Is Probably Wreckage of European Spacecraft</h2>
+
+            </div>
+
+            <div class="story left cf">
+                <img class="story-image left" alt="Planet Juno picture" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\juno.jpg">
+                <h2 class="story-heading right">Juno Hobbled but Healthy After Glitch, NASA Says</h2>
+
+            </div>
+
+            <div class="story left cf">
+                <img class="story-image left" alt="space craft orbiting Venus" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\spaceStation.jpg">
+                <h2 class="story-heading right">Venus Inhospitable, and Perhaps Instruction</h2>
+
+            </div>
+
+            <div class="story left cf">
+                <img class="story-image left" alt="picture of galaxies" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\stars.jpg">
+                <h2 class="story-heading right">Two Trillion Galaxies, at the Very Least</h2>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+<!--   Main Content -->
+
+
+    <div class="container cf">
+
+        <div class="main-content">
+            
+            <h4 class="left category"> SPACE & COSMOS </h4>
+            <p class="right">
+                <i class="fa fa-icon"></i>
+                <span id="comment-text"> 615 comments</span>
+            </p>
+
+            <h1 class="article-topic"> Space Ripples Reveal Big Bang's Smoking Gun</h1>
+
+            <h4 class="left author"> By <strong> Dennis Overbye </strong> MARCH 17, 2014</h4>
+
+            <img class="photograph" alt="picture of the articles source material near a telescope" src="C:\Users\Andy Reynolds\Dropbox\odinProject.CopyCat\othertelescopephoto.jpg">
+            <figcaption class="left figcaption1">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so
+                 uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. Credit <span id="spancaption1"> Rick Friedman for The New York Times </span>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+<!---- STYLE ----->
+
+html {
+    font-family: sans-serif;
+}
+
+div {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/************** NAV MENU *****************/
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+}
+
+.header-content {
+    width: 98%;
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+    padding-bottom: 7px;
+}
+
+.header-button {
+    position: relative;
+    width: 104px;
+    margin-top: 9px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px 0px #999;
+    margin-right: 5px;
+    height: 30px;
+    color: #333;
+    border: 1px solid #ccc
+}
+
+.header-button-content {
+    margin-top: 6px;
+    color: black;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.button-text {
+    font-weight: 800;
+    font-size: 11px;
+    position: relative;
+    top: -2px;
+}
+
+.borderless {
+    border: 0;
+    box-shadow: none;
+    height: 30px;
+}
+
+header-element-icon {
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -2px;
+}
+
+img {
+    border: 0;
+}
+
+.logo {
+    padding-top: 13px;
+    position: relative;
+    left: 280px;
+    display: inline-block;
+}
+
+.settings {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: #333;
+}
+
+div.header-button.right.log {
+    background: #6288a5;
+    color: white;
+    border: 1px solid #888;
+    border-radius: 3px;
+    width: 55px;
+    display: inline-block;
+    left: 95px;
+}
+
+.header-element-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -2px;
+    margin: 0;
+    padding: 0;
+}
+
+#log {
+    color:white;
+}
+
+div.header-button.right.subscribe {
+    background: #6288a5;
+    color: white;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid #888;
+    display: inline-block;
+    right: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#subscribe {
+    color: white;
+}
+
+
+
+/************* RIBBON MENU *********/
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ribbon {
+    width: 100%;
+}
+
+.ribbon-container {
+    width: 98%;
+    height: 65px;
+    padding-top: 55px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-left: 16px;
+}
+
+
+div h2 {
+    color: #333;
+    width: 155px;
+    font-size: 13px;
+    font-weight: 400;
+    left: 20;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    margin-right: 20px;
+    padding-left: 16px;
+}
+
+story-image {
+    width: 16px;
+    height: 16px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+img {
+    border: 0;
+}
+
+.main-content {
+    width: 1060px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.category {
+    margin-top: 5px;
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#comment-text {
+    font-family: Georgia, sans-serif;
+    font-size: 10px;
+}
+
+.article-topic {
+    font-family: georgia, sans-serif;
+    font-weight: 900;
+    clear: both;
+    font-style: italic;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+
+}
+
+.author {
+    font-family: sans-serif, serif;
+    font-size: 10px;
+}
+
+.figcaption1 {
+    font-family: georgia, sans-serif;
+    font-size: 14px;
+    float: left;
+    width: 65%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+#spancaption1 {
+    font-weight: 100;
+    color: #999;
+}
+
+
+
